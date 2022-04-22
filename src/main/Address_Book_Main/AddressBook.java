@@ -312,27 +312,5 @@ public class AddressBook {
             System.out.println();
         }
     }
-    public void writeToFile() {
-        String fileName = "contact.txt";
-        StringBuffer contactBuffer = new StringBuffer();
-
-        int i = 0;
-        for (String key : map.keySet()) {
-            i++;
-            System.out.println("Address Book #" + i + ": " + key + " Contacts Written");
-            List<Contacts> sortedList = map.get(key).stream().sorted(Comparator.comparing(Contacts::getState)).toList();
-            sortedList.forEach(contact -> {
-                String contactData = contact.toString().concat("\n");
-                contactBuffer.append(contactData);
-            });
-            try {
-                Files.write(Paths.get(fileName), contactBuffer.toString().getBytes());
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            System.out.println();
-
-        }
-    }
 
 }
