@@ -30,10 +30,11 @@ public class AddressBookMain {
                 case 6 -> contactInfo.displayCityMap();
                 case 7 -> contactInfo.sortByCity();
                 case 8-> contactInfo.sortByState();
-                default ->
+                default -> {
+                    contactInfo.writeToFile();
                     j = i + 2;
                 }
             }
         }
     }
-
+}
