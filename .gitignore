@@ -1,0 +1,86 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+/out/production/EmpWageCase/com/*
+/out/production/Practice_Problems/com/*
+/out/production/EmpWageCase/com/*
+*iml
+/Class Problems/out/production/untitled/com/blz/
+/Class Problems/out/production/untitled/com/blz/*
+/Core_Programs/out/production/Core_Programs/com/blz/
+/Core_Programs/out/production/Core_Programs/com/blz/*
+/SL/out/production/SL/com/blz/
+/SL/out/production/SL/com/blz/*
+out/production/SL/com/blz/
+/TicTacToe/out/production/TicTacToe/com/blz/*
+TicTacToe/out/production/TicTacToe/com/blz/*
+/out/production/TicTacToe/com/blz/*
+/out/production/TicTacToe/com/blz/
+out/production/TicTacToe/com/blz/*
+/out/production/DeckOfCards/com/blz/
+/out/production/DeckOfCards/com/blz/*
+/out/production/DeckOfCards/com/*
+out/production/DeckOfCards/com/blz/
+out/production/DeckOfCards/com/blz/*
+/production/DeckOfCards/com/blz/
+production/DeckOfCards/com/blz/*
+production/DeckOfCards/com/blz/
+/Hotel_Registration_System/target/
+Hotel_Registration_System/target/*
+/Hotel_Registration_System/target/*
+/target/
+/target/*
+target/*
+/target/classes/
+/target/classes/*
+target/classes/*
+/target/classes
+/target/test-classes/
+/target/test-classes/*
+/target/test-classes/
+target/test-classes/*
+/Address_Book/target/classes
+/Address_Book/target/classes/
+/Address_Book/target/classes/*
+Address_Book/target/classes
+Address_Book/target/classes/*
+Address_Book/target/classes/
+/Address_Book/target/generated-sources/annotations
+/Address_Book/target/generated-sources/annotations/
+/Address_Book/target/generated-sources/annotations/*
+Address_Book/target/generated-sources/annotations
+Address_Book/target/generated-sources/annotations/
+Address_Book/target/generated-sources/annotations/*
